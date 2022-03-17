@@ -76,9 +76,6 @@ public class RegisterStudentTest {
 			//Click on submit button
 			submitBtn.click();
 
-			//Click on submit button
-			submitBtn.click();
-
 			//Verify the confirmation message
 			WebElement confirmationMessage = driver.findElement(By.xpath("//div[text()='Thanks for submitting the form']"));
 
